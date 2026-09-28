@@ -68,8 +68,8 @@ The key feature of this project is persistent memory using **Hindsight**.
              └────────┬────────┘
                       ▼
                  AI Analysis
-                      │
-                      ▼
+
+
 ## 🔄 Continuous Learning Loop
 ```text
         Incident
