@@ -1,0 +1,15 @@
+[
+  {
+    "id": "INC-001",
+    "title": "Database Connection Timeout",
+    "error": "ERROR: connection timeout after 30 seconds",
+    "severity": "High",
+    "service": "Order Service",
+    "description": "The order service started experiencing database connection timeouts during a traffic spike.",
+    "root_cause": "Database connection pool exhaustion caused requests to wait indefinitely for available connections.",
+    "resolution": "Increased the database connection pool size from 20 to 50 and restarted the affected service.",
+    "lesson": "When database timeouts occur during high traffic, check connection pool utilization before investigating unrelated network failures.",
+    "status": "Resolved",
+    "date": "2026-09-20"
+  }
+]
