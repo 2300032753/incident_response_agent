@@ -1,5 +1,5 @@
 streamlit
 hindsight-client
 python-dotenv
-openai
+google-genai
 pandas
