@@ -1,7 +1,6 @@
 import os
 from dotenv import load_dotenv
-from google import genai
-
+from google.genai import Client
 from hindsight_memory import recall_similar_incidents
 
 load_dotenv()
@@ -15,7 +14,7 @@ def get_gemini_client():
             "GEMINI_API_KEY is missing. Add it to your .env file."
         )
 
-    return genai.Client(api_key=api_key)
+    return Client(api_key=api_key)
 
 
 def generate_response(prompt):
