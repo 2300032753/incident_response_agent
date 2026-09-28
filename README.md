@@ -70,6 +70,91 @@ The key feature of this project is persistent memory using **Hindsight**.
                  AI Analysis
                       │
                       ▼
+#🔄 Continuous Learning Loop
+      Incident
+         │
+         ▼
+   Investigation
+         │
+         ▼
+     Resolution
+         │
+         ▼
+  Store Experience
+         │
+         ▼
+ Persistent Memory
+         │
+         ▼
+   Future Incident
+         │
+         ▼
+ Recall Experience
+         │
+         ▼
+Better Investigation
+
+The system continuously builds an organizational memory of previous incidents.
+
+✨ Features
+📊 Dashboard
+
+Provides an overview of incident activity:
+
+Total incidents
+Open incidents
+Resolved incidents
+Severity distribution
+Incident history
+🚨 Report Incident
+
+Engineers can report an incident with:
+
+Incident title
+Error message
+Service
+Severity
+Description
+🤖 AI Investigation
+
+The agent can:
+
+Search historical incident memories
+Find similar incidents
+Analyze the current problem
+Identify possible root causes
+Suggest resolution steps
+Provide lessons learned
+🧠 Persistent Memory
+
+Hindsight stores organizational knowledge including:
+
+Incident experiences
+Root causes
+Resolutions
+Lessons learned
+Incident context
+💬 Agent Chat
+
+Users can ask natural-language questions such as:
+
+Have we seen this problem before?
+
+How did we resolve the previous database timeout?
+
+What did we learn from previous incidents?
+
+What should I check first?
+
+The agent retrieves relevant organizational memory before generating its response.
+
+📚 Memory Explorer
+
+The application provides a dedicated memory view for exploring stored incident experiences.
+
+🔄 Example Scenario
+Incident #001 — Database Connection Timeout
+Problem
                 Resolution
                       │
                       ▼
