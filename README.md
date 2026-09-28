@@ -70,34 +70,35 @@ The key feature of this project is persistent memory using **Hindsight**.
                  AI Analysis
                       │
                       ▼
-#🔄 Continuous Learning Loop
-      Incident
-         │
+## 🔄 Continuous Learning Loop
+```text
+        Incident
+           │
+           ▼
+     Investigation
+           │
+           ▼
+       Resolution
+           │
+           ▼
+    Store Experience
+           │
+           ▼
+   Persistent Memory
+           │
+           ▼
+     Future Incident
+           │
+           ▼
+   Recall Experience
+           │
          ▼
-   Investigation
-         │
-         ▼
-     Resolution
-         │
-         ▼
-  Store Experience
-         │
-         ▼
- Persistent Memory
-         │
-         ▼
-   Future Incident
-         │
-         ▼
- Recall Experience
-         │
-         ▼
-Better Investigation
+  Better Investigation
 
 The system continuously builds an organizational memory of previous incidents.
 
-✨ Features
-📊 Dashboard
+## ✨ Features
+## 📊 Dashboard
 
 Provides an overview of incident activity:
 
@@ -108,7 +109,7 @@ Severity distribution
 Incident history
 🚨 Report Incident
 
-Engineers can report an incident with:
+# Engineers can report an incident with:
 
 Incident title
 Error message
@@ -117,7 +118,7 @@ Severity
 Description
 🤖 AI Investigation
 
-The agent can:
+# The agent can:
 
 Search historical incident memories
 Find similar incidents
@@ -127,7 +128,7 @@ Suggest resolution steps
 Provide lessons learned
 🧠 Persistent Memory
 
-Hindsight stores organizational knowledge including:
+# Hindsight stores organizational knowledge including:
 
 Incident experiences
 Root causes
